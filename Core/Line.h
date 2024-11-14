@@ -5,7 +5,7 @@
 #include "Twain.h"
 
 class Line {
-  using sectlist = std::list<Twain>;
-  sectlist  sections;
+  using twainlist = std::list<Twain>;
+  twainlist  twains;
 };
 
