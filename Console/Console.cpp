@@ -4,6 +4,7 @@
 #include <iostream>
 #endif
 #include "../Core/Railway.h"
+using std::cout;
 
 int main() {
   Railway railway{};
@@ -11,8 +12,16 @@ int main() {
   Twain tw1;
   Station st1;
   Section sect1;
-  Block bl1;
+  Block bl1("test", 0, 10);
+  Block bl2("test", 10, 20);
+  Block bl3("test", 20, 30);
+  Block bl4("test", 30, 40);
+  Block bl5("test", 40, 50);
+  Block bl6("test", 50, 60);
+  Block bl7("test", 60, 70);
+  Block bl8("test", 70, 80);
 
+  std::string s{ "Test" };
 
-    std::cout << "Hello World!\n";
+  cout << bl1;
 }
