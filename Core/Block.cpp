@@ -11,7 +11,7 @@ std::ostream& operator << (std::ostream& strm, const Block& bl){
   return strm;
 }
 
-//inline std::istream& operator >> (std::istream& strm, Railway::Block& bl) {
+//inline std::istream& operator >> (std::istream& strm, Block& bl) {
 //  std::string shortName;
 //  strm >> sp.name;
 //  strm >> shortName;
