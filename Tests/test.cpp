@@ -28,5 +28,12 @@ TEST(SectionTest, Append) {
   sect1.append(bl1);
   sect1.append(bl2);
 
+  Railway railway{};
+  Line l1, l2;
+  Twain tw1;
+  Station st1;
+  Section sect1;
+  //std::string s{ "Test" };
+
   SUCCEED();
 }
