@@ -6,5 +6,6 @@
 #include <list>
 #include <format>
 #include <fstream>
+#include <sstream>
 
 #define USED_PRECOMPILE

@@ -10,24 +10,23 @@ using std::string;
 
 void read_trk(const char* file_name) {
   std::ifstream file(file_name);
-  if (!file.is_open())
-    std::cerr << "Error opening the file!" << file_name << "\n";
-  else{
+  if (file.is_open()){
     string line;
     while (std::getline(file, line)) {
-      cout << line << "\n";
+      std::stringstream sstream(line);
+      string val;
+      while (std::getline(sstream, val, ',')) {
+        cout << val << "\t";
+      }
+      cout << "\n";
     }
     file.close();
-  }
-
+  } else
+    std::cerr << "Error opening the file!" << file_name << "\n";
 }
 
 int main(int argc, char* argv[]) {
-  for (auto i = 0; i < argc; i++) {
-    cout << argv[i] << "\n";
-  }
   if (argc == 2) {
     read_trk(argv[1]);
   }
 }
-
