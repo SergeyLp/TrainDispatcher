@@ -32,6 +32,6 @@ int main(int argc, char* argv[]) {
     read_trk(argv[1]);
   }
 
-  Coord<int> c{1, 2};
+  Coord c{1, 2};
   cout << c.x << " " << c.y << "\n";
 }
