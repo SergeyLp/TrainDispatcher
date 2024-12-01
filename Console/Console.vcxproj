@@ -93,6 +93,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>!pch.hxx</PrecompiledHeaderFile>
       <ForcedIncludeFiles>!pch.hxx</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>../Core/</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -120,6 +121,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>!pch.hxx</PrecompiledHeaderFile>
       <ForcedIncludeFiles>!pch.hxx</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>../Core/</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -147,6 +149,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>!pch.hxx</PrecompiledHeaderFile>
       <ForcedIncludeFiles>!pch.hxx</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>../Core/</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -174,6 +177,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>!pch.hxx</PrecompiledHeaderFile>
       <ForcedIncludeFiles>!pch.hxx</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>../Core/</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -194,6 +198,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.vcxproj">
       <Project>{827f0829-9655-4822-bcfd-865141ec494d}</Project>
+      <Private>false</Private>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

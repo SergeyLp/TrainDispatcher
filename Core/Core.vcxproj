@@ -194,6 +194,7 @@
     <ClInclude Include="Section.h" />
     <ClInclude Include="Line.h" />
     <ClInclude Include="Station.h" />
+    <ClInclude Include="TrackItem.h" />
     <ClInclude Include="Twain.h" />
   </ItemGroup>
   <ItemGroup>
@@ -210,6 +211,7 @@
     <ClCompile Include="Section.cpp" />
     <ClCompile Include="Line.cpp" />
     <ClCompile Include="Station.cpp" />
+    <ClCompile Include="TrackItem.cpp" />
     <ClCompile Include="Twain.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
