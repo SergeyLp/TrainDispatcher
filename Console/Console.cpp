@@ -5,6 +5,7 @@
 #include <fstream>
 #endif
 #include "../Core/Railway.h"
+#include "../Core/Coord.h"
 using std::cout;
 using std::string;
 
@@ -26,7 +27,11 @@ void read_trk(const char* file_name) {
 }
 
 int main(int argc, char* argv[]) {
+
   if (argc == 2) {
     read_trk(argv[1]);
   }
+
+  Coord<int> c{1, 2};
+  cout << c.x << " " << c.y << "\n";
 }
