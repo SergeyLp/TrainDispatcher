@@ -10,4 +10,3 @@ std::ostream& operator << (std::ostream& strm, const TrackItem& c) {
   strm << c.to_string();
   return strm;
 }
-

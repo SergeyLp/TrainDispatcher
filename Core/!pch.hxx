@@ -3,7 +3,10 @@
 
 #include <string>
 #include <list>
+#include <vector>
 #include <format>
 #include <iostream>
+#include <fstream>
+#include <sstream>
 
 #define USED_PRECOMPILE

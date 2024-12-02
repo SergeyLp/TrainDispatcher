@@ -190,6 +190,7 @@
     <ClInclude Include="!pch.hxx" />
     <ClInclude Include="Block.h" />
     <ClInclude Include="Coord.h" />
+    <ClInclude Include="CsvReader.h" />
     <ClInclude Include="Railway.h" />
     <ClInclude Include="Section.h" />
     <ClInclude Include="Line.h" />
@@ -207,6 +208,7 @@
     <ClCompile Include="Block.cpp" />
     <ClCompile Include="Coord.cpp" />
     <ClCompile Include="Core.cpp" />
+    <ClCompile Include="CsvReader.cpp" />
     <ClCompile Include="Railway.cpp" />
     <ClCompile Include="Section.cpp" />
     <ClCompile Include="Line.cpp" />
